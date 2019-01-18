@@ -1,0 +1,15 @@
+{
+  "name": "fin-statistics",
+  "version": "1.0.0",
+  "description": "Financial statistics tool, made with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladislav Gorovoy",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "tslint-config-prettier": "^1.17.0"
+  }
+}
