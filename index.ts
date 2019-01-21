@@ -13,3 +13,4 @@ export { default as matrix_sum } from "./src/matrix_sum/matrix_sum";
 export {
   default as sqr_mtrx_mult
 } from "./src/square_matrix_multiplication/square_matrix_multiplication";
+export { default as harmonic_mean } from "./src/harmonic_mean/harmonic_mean";
