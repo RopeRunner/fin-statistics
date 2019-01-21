@@ -1,5 +1,12 @@
 import sum from "../../../sum/sum";
+import { get_slice } from "../../helpers/slicer";
 
+/**
+ * Function take as parameters data set and window size
+ * for calculating simple moving avarage
+ * @param data_set {Array<number>} - Input data set
+ * @param window_size {number} - Size of window for simple moving avarage, need to be less that data_set.length
+ */
 function sma(
   data_set: Array<number>,
   window_size: number
@@ -25,8 +32,5 @@ function sma(
 
   return result;
 }
-
-const get_slice = (start: number, end: number, arr: Array<number>) =>
-  arr.slice(start, end);
 
 export default sma;
