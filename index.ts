@@ -14,3 +14,4 @@ export {
   default as sqr_mtrx_mult
 } from "./src/square_matrix_multiplication/square_matrix_multiplication";
 export { default as harmonic_mean } from "./src/harmonic_mean/harmonic_mean";
+export { default as fin_instruments } from "./src/fin_instruments/index";
