@@ -10,3 +10,6 @@ export {
 export { default as z_score } from "./src/z_score/z_score";
 export { default as median } from "./src/median/median";
 export { default as matrix_sum } from "./src/matrix_sum/matrix_sum";
+export {
+  default as sqr_mtrx_mult
+} from "./src/square_matrix_multiplication/square_matrix_multiplication";
