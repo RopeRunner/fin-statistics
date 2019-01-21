@@ -9,3 +9,4 @@ export {
 } from "./src/standart_deviation/standart_deviation";
 export { default as z_score } from "./src/z_score/z_score";
 export { default as median } from "./src/median/median";
+export { default as matrix_sum } from "./src/matrix_sum/matrix_sum";
