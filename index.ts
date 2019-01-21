@@ -8,3 +8,4 @@ export {
   default as standart_deviation
 } from "./src/standart_deviation/standart_deviation";
 export { default as z_score } from "./src/z_score/z_score";
+export { default as median } from "./src/median/median";
