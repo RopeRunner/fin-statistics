@@ -9,16 +9,16 @@
 function square_matrix_multiplication(
   first_matrix: Array<Array<number>>,
   second_matrix: Array<Array<number>>
-): Array<Array<number>> | Error {
+): Array<Array<number>> {
   let result: Array<Array<number>> = [];
 
   for (let i = 0; i < first_matrix.length; i++) {
     if (first_matrix[i].length === 0 || second_matrix[i].length === 0) {
-      return new Error("No empty data_set parts");
+      throw new Error("No empty data_set parts");
     }
 
     if (first_matrix[i].length !== second_matrix[i].length) {
-      return new Error("Cannot have differnt matrix dimensions");
+      throw new Error("Cannot have differnt matrix dimensions");
     }
 
     result.push([]);

@@ -8,11 +8,11 @@
 function linear_weighted_moving_avarage(
   data_set: Array<number>,
   window_size: number
-): Array<number> | Error {
+): Array<number> {
   if (data_set.length <= window_size) {
-    return new Error("Lenght of data set need to be longer than window_size");
+    throw new Error("Lenght of data set need to be longer than window_size");
   } else if (window_size <= 0) {
-    return new Error("Window size can not be less or equal to zero");
+    throw new Error("Window size can not be less or equal to zero");
   }
   let result: Array<number> = [],
     last_element: number = data_set.length - window_size + 1,

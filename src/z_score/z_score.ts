@@ -3,8 +3,7 @@ function z_score(
   mean: number,
   standart_deviation: number
 ): Array<number> {
-  if (data_set.length === 0)
-    throw new Error("data_set @param{Array<number>} can not be empty");
+  if (data_set.length === 0) throw new Error("Data set can not be empty");
 
   let z_score_result: Array<number> = [];
 

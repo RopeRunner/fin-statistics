@@ -1,8 +1,12 @@
-function min(array: Array<number>): number {
-  let min = array[0];
+function min(data_set: Array<number>): number {
+  if (data_set.length === 0) {
+    throw new Error("Data set can not be empty");
+  }
 
-  for (let i = 1; i < array.length; i++) {
-    if (array[i] < min) min = array[i];
+  let min = data_set[0];
+
+  for (let i = 1; i < data_set.length; i++) {
+    if (data_set[i] < min) min = data_set[i];
   }
 
   return min;

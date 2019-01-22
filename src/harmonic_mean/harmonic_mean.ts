@@ -3,8 +3,8 @@
  * and return harmonic mean value {number}
  * @param data_set {Array<number>} - array of numbers
  */
-function harmonic_mean(data_set: Array<number>): number | Error {
-  if (data_set.length === 0) return new Error("Data set can not be empty");
+function harmonic_mean(data_set: Array<number>): number {
+  if (data_set.length === 0) throw new Error("Data set can not be empty");
 
   let sum: number = 0;
 

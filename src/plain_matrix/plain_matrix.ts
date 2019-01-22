@@ -1,9 +1,9 @@
 function plain_matrix(
-  n: number,
-  k: number,
+  horizontal_dimension: number,
+  vertical_dimension: number,
   type: string = "zeros"
-): Array<Array<any>> {
-  let new_matrix: Array<Array<any>> = [];
+): Array<Array<number>> {
+  let new_matrix: Array<Array<number>> = [];
   let cb_function: () => number;
 
   switch (type) {
@@ -21,9 +21,9 @@ function plain_matrix(
       cb_function = get_random;
   }
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < horizontal_dimension; i++) {
     new_matrix.push([]);
-    for (let j = 0; j < k; j++) {
+    for (let j = 0; j < vertical_dimension; j++) {
       new_matrix[i].push(cb_function());
     }
   }

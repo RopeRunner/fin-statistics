@@ -1,9 +1,9 @@
 import sum from "../sum/sum";
 
-function mean(array: Array<number>): number {
-  if (array.length === 0) return 0;
+function mean(data_set: Array<number>): number {
+  if (data_set.length === 0) return 0;
 
-  return sum(array) / array.length;
+  return sum(data_set) / data_set.length;
 }
 
 export default mean;

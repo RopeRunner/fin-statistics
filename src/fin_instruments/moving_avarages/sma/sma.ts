@@ -7,12 +7,11 @@ import { get_slice } from "../../helpers/slicer";
  * @param data_set {Array<number>} - Input data set
  * @param window_size {number} - Size of window for simple moving avarage, need to be less that data_set.length
  */
-function sma(
-  data_set: Array<number>,
-  window_size: number
-): Array<number> | Error {
+function sma(data_set: Array<number>, window_size: number): Array<number> {
   if (data_set.length <= window_size) {
-    return new Error("Lenght of data set need to be longer than window_size");
+    throw new Error("Lenght of data set need to be longer than window_size");
+  } else if (window_size <= 0) {
+    throw new Error("Window size can not be less or equal to zero");
   }
   let result: Array<number> = [],
     start_indexing: number = 0,
