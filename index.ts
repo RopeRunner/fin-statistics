@@ -49,3 +49,6 @@ export {
 export {
   default as simple_correlation
 } from "./src/fundamental_statistics/simple_correlation/simple_correlation";
+export {
+  default as correlation
+} from "./src/fundamental_statistics/correlation/correlation";
