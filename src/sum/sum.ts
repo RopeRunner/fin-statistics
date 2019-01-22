@@ -1,3 +1,9 @@
+/**
+ * Function takes as a parameter numerical data set
+ * and return the number that represent summation of each element in data set
+ * Kahan algorithm
+ * @param data_set {Array<number>} - Numerical data set
+ */
 function sum(data_set: Array<number>): number {
   if (data_set.length === 0) return 0;
 

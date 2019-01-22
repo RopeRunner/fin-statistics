@@ -1,3 +1,8 @@
+/**
+ * Function takes as a parameter numerical data set
+ * and return maximum from this data set
+ * @param data_set {Array<number>} - Numerical data set
+ */
 function max(data_set: Array<number>): number {
   if (data_set.length === 0) throw new Error("Data set can not be empty");
   let max = data_set[0];

@@ -1,3 +1,8 @@
+/**
+ * Function takes as parameter numerical data set
+ * and returns minimal value form these data set
+ * @param data_set {Array<number>} - Numerical data set
+ */
 function min(data_set: Array<number>): number {
   if (data_set.length === 0) {
     throw new Error("Data set can not be empty");

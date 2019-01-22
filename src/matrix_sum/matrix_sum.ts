@@ -3,8 +3,8 @@
  * two squares matrixes
  * and returns new square matrix
  * which element of result will include summ of corresponding elemnts of params matrixes
- * @param first_data_set {Array<Array<number>>} - first square matrix
- * @param second_data_set {Array<Array<number>>} - second square matrix
+ * @param first_data_set {Array<Array<number>>} - First square matrix
+ * @param second_data_set {Array<Array<number>>} - Second square matrix
  */
 function matrix_sum(
   first_matrix: Array<Array<number>>,

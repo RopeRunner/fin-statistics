@@ -1,5 +1,10 @@
 import { num_sort } from "../helpers/num_sort";
 
+/**
+ * Function takes as a parameter numerical data set
+ * and returns the most "popular" value in this data set - mediam
+ * @param data_set {Array<number>} - Numerical data set
+ */
 function median(data_set: Array<number>): number {
   if (data_set.length === 0) {
     throw new Error("Data set can not be empty");

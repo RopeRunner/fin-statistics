@@ -1,3 +1,11 @@
+/**
+ * Function takes as a parameter numerical data set, mean and standart deviation
+ * return numerical data set, corresponding elements of result data set
+ * represent z score value
+ * @param data_set {Array<number>} - Numerical data set
+ * @param mean {number} - Mean for this data set
+ * @param standart_deviation {number} - Standart deviation for this data set
+ */
 function z_score(
   data_set: Array<number>,
   mean: number,

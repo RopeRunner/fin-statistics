@@ -1,5 +1,10 @@
 import mean from "../mean/mean";
 
+/**
+ * Function takes as a parameter numerical data set
+ * and return variance for this data set
+ * @param data_set {Array<number>} - Numerical data set
+ */
 function variance(data_set: Array<number>): number {
   if (data_set.length === 0) throw new Error("Data set can not be empty");
 

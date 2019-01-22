@@ -1,7 +1,7 @@
 /**
  * Function take array of numbers as an input
  * and return harmonic mean value {number}
- * @param data_set {Array<number>} - array of numbers
+ * @param data_set {Array<number>} - Numerical data set
  */
 function harmonic_mean(data_set: Array<number>): number {
   if (data_set.length === 0) throw new Error("Data set can not be empty");

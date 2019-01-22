@@ -2,8 +2,8 @@
  * Function takes as a parameter list of data (numerical data)
  * and window size
  * and returns list of weighted moving avarages values for this period
- * @param data_set {Array<number>} - numerical data set
- * @param window_size {number} - numerical size of window
+ * @param data_set {Array<number>} - Numerical data set
+ * @param window_size {number} - Numerical size of window
  */
 function linear_weighted_moving_avarage(
   data_set: Array<number>,
