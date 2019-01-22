@@ -37,3 +37,6 @@ export {
 export {
   default as avarage_linear_deviation
 } from "./src/fundamental_statistics/avarage_linear_deviation/avarage_linear_deviation";
+export {
+  default as linear_coefficient_of_variation
+} from "./src/fundamental_statistics/linear_coefficient_of_variation/linear_coefficient_of_variation";
