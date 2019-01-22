@@ -25,3 +25,6 @@ export {
   default as harmonic_mean
 } from "./src/fundamental_statistics/harmonic_mean/harmonic_mean";
 export { default as fin_instruments } from "./src/fin_instruments/index";
+export {
+  default as geometric_mean
+} from "./src/fundamental_statistics/geometric_mean/geometric_mean";

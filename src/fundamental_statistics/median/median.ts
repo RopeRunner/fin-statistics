@@ -1,4 +1,4 @@
-import { num_sort } from "../helpers/num_sort";
+import { num_sort } from "../../helpers/num_sort";
 
 /**
  * Function takes as a parameter numerical data set

@@ -6,7 +6,7 @@ import sum from "../sum/sum";
  * @param data_set {Array<number>} - Numerical data set
  */
 function mean(data_set: Array<number>): number {
-  if (data_set.length === 0) return 0;
+  if (data_set.length === 0) throw new Error("Data set can not be empty");
 
   return sum(data_set) / data_set.length;
 }
