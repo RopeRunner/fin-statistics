@@ -34,6 +34,6 @@ export {
 export {
   default as scope_of_variation
 } from "./src/fundamental_statistics/scope_of_variation/scope_of_variation";
-import avarage_linear_deviation from "./src/fundamental_statistics/avarage_linear_deviation/avarage_linear_deviation";
-
-console.log(avarage_linear_deviation([1, 3, 1, 5, 8]));
+export {
+  default as avarage_linear_deviation
+} from "./src/fundamental_statistics/avarage_linear_deviation/avarage_linear_deviation";
