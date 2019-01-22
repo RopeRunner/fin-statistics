@@ -31,3 +31,6 @@ export {
 export {
   default as exp_mean
 } from "./src/fundamental_statistics/exp_mean/exp_mean";
+export {
+  default as scope_of_variation
+} from "./src/fundamental_statistics/scope_of_variation/scope_of_variation";
