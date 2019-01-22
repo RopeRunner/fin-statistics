@@ -23,7 +23,7 @@ function linear_weighted_moving_avarage(
 
   for (let i = 0; i < last_element; i++) {
     data_set.forEach((el: number, idx: number) => {
-      if (idx < start || idx > end) {
+      if (idx < start && idx > end) {
         return;
       } else {
         sub_sum += el * (idx + 1);
