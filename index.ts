@@ -40,3 +40,6 @@ export {
 export {
   default as linear_coefficient_of_variation
 } from "./src/fundamental_statistics/linear_coefficient_of_variation/linear_coefficient_of_variation";
+export {
+  default as quadratic_coefficient_of_variation
+} from "./src/fundamental_statistics/quadratic_coefficient_of_variation/quadratic_coefficient_of_variation";
