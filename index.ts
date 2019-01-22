@@ -14,11 +14,4 @@ export {
   default as sqr_mtrx_mult
 } from "./src/square_matrix_multiplication/square_matrix_multiplication";
 export { default as harmonic_mean } from "./src/harmonic_mean/harmonic_mean";
-import * as fin_instruments from "./src/fin_instruments/index";
-
-console.log(
-  fin_instruments.linear_weighted_moving_avarage(
-    [5.3, 6.7, 7.9, 7.1, 5.2, 4.1, 3.5, 5.4, 7.3, 9.4, 8, 6.6, 7.9, 9.2, 7.6],
-    5
-  )
-);
+export { default as fin_instruments } from "./src/fin_instruments/index";
