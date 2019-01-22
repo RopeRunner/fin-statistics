@@ -1,4 +1,4 @@
-import sum from "../../../sum/sum";
+import sum from "../../../fundamental_statistics/sum/sum";
 import { get_slice } from "../../helpers/slicer";
 
 /**
