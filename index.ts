@@ -43,6 +43,9 @@ export {
 export {
   default as quadratic_coefficient_of_variation
 } from "./src/fundamental_statistics/quadratic_coefficient_of_variation/quadratic_coefficient_of_variation";
-import covariance from "./src/fundamental_statistics/covariance/covariance";
-
-console.log(covariance([1, 2, 5, 9], [1, -1, 100, -29]));
+export {
+  default as covariance
+} from "./src/fundamental_statistics/covariance/covariance";
+export {
+  default as simple_correlation
+} from "./src/fundamental_statistics/simple_correlation/simple_correlation";
