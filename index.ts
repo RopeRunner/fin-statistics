@@ -52,3 +52,8 @@ export {
 export {
   default as correlation
 } from "./src/fundamental_statistics/correlation/correlation";
+
+/**
+ * import { linear_regression } from "./src/fundamental_statistics/linear_regression/linear_regression";
+ * TODO: test
+ * */
