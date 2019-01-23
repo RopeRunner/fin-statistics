@@ -4,7 +4,7 @@ import { sum } from "../../..";
 export interface ILinearRegression {
   a: number;
   b: number;
-  string_eq_represent: string;
+  regression_line: () => RegressionLine;
   similarity_coefficient: number;
 }
 
@@ -54,10 +54,21 @@ export function linear_regression(
     test_sum_model += a + b * x_data_set[i];
   }
 
+  console.log(a);
+  console.log(b);
+
   result.a = a;
   result.b = b;
-  result.string_eq_represent = `y_reg = ${a} + ${b} * x`;
+  result.regression_line = () => new RegressionLine(a, b);
   result.similarity_coefficient = sum_of_y / test_sum_model;
 
   return result;
+}
+
+class RegressionLine {
+  constructor(private a: number, private b: number) {}
+
+  public calculate_regression(x: number): number {
+    return this.a + this.b * x;
+  }
 }
