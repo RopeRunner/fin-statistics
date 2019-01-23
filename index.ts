@@ -64,3 +64,6 @@ export {
 export {
   default as standart_moments
 } from "./src/fundamental_statistics/standart_moments/standart_moments";
+export {
+  default as normal_distribution
+} from "./src/distributions/normal_distribution/normal_distribution";

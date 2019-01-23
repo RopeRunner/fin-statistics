@@ -1,7 +1,7 @@
 import mean from "../mean/mean";
 import { sum } from "../../..";
 
-export interface ILinearRegression {
+interface ILinearRegression {
   a: number;
   b: number;
   regression_line: () => RegressionLine;
@@ -18,7 +18,7 @@ export interface ILinearRegression {
  * @param x_data_set {Array<number>} - Numeric data set of x's
  * @param y_data_set {Array<number>} - Numeric data set of y's
  */
-export function linear_regression(
+function linear_regression(
   x_data_set: Array<number>,
   y_data_set: Array<number>
 ): ILinearRegression {
@@ -54,9 +54,6 @@ export function linear_regression(
     test_sum_model += a + b * x_data_set[i];
   }
 
-  console.log(a);
-  console.log(b);
-
   result.a = a;
   result.b = b;
   result.regression_line = () => new RegressionLine(a, b);
@@ -72,3 +69,5 @@ class RegressionLine {
     return this.a + this.b * x;
   }
 }
+
+export default linear_regression;
