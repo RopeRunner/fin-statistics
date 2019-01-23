@@ -1,3 +1,10 @@
+/**
+ * Normal Distribution - https://en.wikipedia.org/wiki/Normal_distribution
+ * Used Box-Muller Method - https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
+ * Function takes as a parameter number of elements you want to generate
+ * and return you a data set, that normal distributed
+ * @param data_set_len {number} - Number of elements, that you want to generate
+ */
 function normal_distribution(data_set_len: number): Array<number> {
   if (data_set_len <= 1)
     throw new Error("Distribution need to have more than 1 data point");
