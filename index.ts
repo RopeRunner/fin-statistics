@@ -67,3 +67,6 @@ export {
 export {
   default as normal_distribution
 } from "./src/distributions/normal_distribution/normal_distribution";
+export {
+  default as transposition_square
+} from "./src/linear_algebra/transposition/transposition";
