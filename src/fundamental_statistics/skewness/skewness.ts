@@ -1,23 +1,12 @@
-import { mean } from "../../..";
-import standart_deviation from "../standart_deviation/standart_deviation";
+import standart_moments from "../standart_moments/standart_moments";
 
+/**
+ * Function takes as a parameter numeric data set
+ * and return skewness value (standartized third statistical moment, or asymmetry coefficient)
+ * @param data_set {Array<number>} - Numeric data set
+ */
 function skewness(data_set: Array<number>): number {
-  if (data_set.length <= 1)
-    throw new Error("Data set need to have more than 1 data point");
-
-  const mean_value: number = mean(data_set),
-    std_quibic: number = Math.pow(standart_deviation(data_set), 3);
-
-  let sub_sum: number = 0,
-    third_momentum: number;
-
-  for (let i = 0; i < data_set.length; i++) {
-    sub_sum += Math.pow(data_set[i] - mean_value, 3);
-  }
-
-  third_momentum = sub_sum / data_set.length;
-
-  return third_momentum / std_quibic;
+  return standart_moments(data_set, 3);
 }
 
 export default skewness;

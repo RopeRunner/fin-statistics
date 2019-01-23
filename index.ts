@@ -58,3 +58,9 @@ export {
 export {
   default as skewness
 } from "./src/fundamental_statistics/skewness/skewness";
+export {
+  default as kurtosis
+} from "./src/fundamental_statistics/kurtosis/kurtosis";
+export {
+  default as standart_moments
+} from "./src/fundamental_statistics/standart_moments/standart_moments";
