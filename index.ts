@@ -73,3 +73,6 @@ export {
 export {
   default as uniform_distribution
 } from "./src/distributions/uniform_distribution/uniform_distribution";
+export {
+  default as exponential_distribution
+} from "./src/distributions/exponential_distribution/exponential_distribution";

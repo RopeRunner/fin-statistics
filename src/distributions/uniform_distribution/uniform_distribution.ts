@@ -11,6 +11,8 @@ function uniform_distribution(
   data_set_len: number
 ): Array<number> {
   if (max < min) throw new Error("Max need to be greater than min");
+  if (data_set_len <= 1)
+    throw new Error("Data set length need to be greater than 1");
 
   let uniformed_data_set: Array<number> = [];
 
