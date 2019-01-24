@@ -1,3 +1,7 @@
+/**
+ *
+ * @param matrix {}
+ */
 function transposition_square(
   matrix: Array<Array<number>>
 ): Array<Array<number>> {

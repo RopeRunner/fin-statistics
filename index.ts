@@ -70,3 +70,6 @@ export {
 export {
   default as transposition_square
 } from "./src/linear_algebra/transposition/transposition";
+export {
+  default as uniform_distribution
+} from "./src/distributions/uniform_distribution/uniform_distribution";
