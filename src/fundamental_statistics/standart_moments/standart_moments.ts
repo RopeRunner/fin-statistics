@@ -1,4 +1,4 @@
-import { mean } from "../../..";
+import mean from "../mean/mean";
 import standart_deviation from "../standart_deviation/standart_deviation";
 
 function standart_moments(data_set: Array<number>, order: number): number {

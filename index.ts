@@ -67,3 +67,6 @@ export {
 export {
   default as normal_distribution
 } from "./src/distributions/normal_distribution/normal_distribution";
+export {
+  default as uniform_distribution
+} from "./src/distributions/uniform_distribution/uniform_distribution";
