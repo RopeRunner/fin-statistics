@@ -1,3 +1,9 @@
+/**
+ * Function takes as a parameters alpha and length of data set you want to get
+ * return data set of gamma distributed values
+ * @param alpha {number} - Parameter of distribution, 0 < alpha < 1
+ * @param data_set_len {number} - Data set length
+ */
 function gamma_distribution(
   alpha: number,
   data_set_len: number
