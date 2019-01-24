@@ -76,3 +76,6 @@ export {
 export {
   default as exponential_distribution
 } from "./src/distributions/exponential_distribution/exponential_distribution";
+export {
+  default as gamma_distribution
+} from "./src/distributions/gamma_distribution/gamma_distribution";
