@@ -1,3 +1,10 @@
+/**
+ * Function takes as a parameters minimal value, maximum value and data set length
+ * return uniformal distribuited daa set
+ * @param min {number} - Minimal value you want
+ * @param max {number} - Maximum value you want
+ * @param data_set_len {number} - Length of data set
+ */
 function uniform_distribution(
   min: number,
   max: number,

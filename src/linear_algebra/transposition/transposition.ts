@@ -1,6 +1,7 @@
 /**
- *
- * @param matrix {}
+ * Function takes as a parameter square matrix
+ * return transpositioned square matrix
+ * @param matrix {Arra<Array<matrix>>} - Numeric Matrix (square)
  */
 function transposition_square(
   matrix: Array<Array<number>>
