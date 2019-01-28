@@ -79,3 +79,6 @@ export {
 export {
   default as gamma_distribution
 } from "./src/distributions/gamma_distribution/gamma_distribution";
+export {
+  default as fisher_yetes_shuffle
+} from "./src/shuffles/fisher_yetes_shuffle/fisher_yetes_shuffle";
