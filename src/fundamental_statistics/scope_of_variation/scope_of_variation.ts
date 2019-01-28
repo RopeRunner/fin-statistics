@@ -1,4 +1,4 @@
-import { num_sort } from "../../helpers/num_sort";
+import { num_sort } from "../../helpers/num_sort/num_sort";
 /**
  * Function takes as a parameter numerical data set
  * and return difference between maximum and minimum in current data set
