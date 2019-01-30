@@ -82,3 +82,4 @@ export {
 export {
   default as fisher_yetes_shuffle
 } from "./src/shuffles/fisher_yetes_shuffle/fisher_yetes_shuffle";
+import frequency from "./src/fundamental_statistics/frequency/frequency";
