@@ -64,3 +64,6 @@ export {
 export {
   default as standart_moments
 } from "./src/fundamental_statistics/standart_moments/standart_moments";
+import frequency from "./src/fundamental_statistics/frequency/frequency";
+
+console.log(frequency([1, 2, 3, 5, 3, 3, 4, 5, 5, 5], 5));
